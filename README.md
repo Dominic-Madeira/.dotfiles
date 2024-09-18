@@ -6,11 +6,13 @@ The following need to be installed first:
 - sudo apt install git gh stow -y
 - gh auth login
 
+Then clone this repo to the home directory:
+- gh repo clone .dotfiles
+  
 Remove the following files from root:
 - rm -r .config .bashrc .gitconfig
 
-Then clone this repo to the home directory, cd into it and run the stow command. Then run setup.sh:
-- gh repo clone .dotfiles
+  cd into the repo and run the stow command. Then run setup.sh:
 - cd .dotfiles
 - stow .
 - cd
