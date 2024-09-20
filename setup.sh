@@ -29,6 +29,3 @@ sudo apt install -y default-jdk
 curl -fsSL https://bun.sh/install | bash
 
 source ~/.bashrc
-
-# make sure setup has completed
-mkdir ~/setupComplete
