@@ -12,5 +12,5 @@ vim.cmd("set colorcolumn=80")
 vim.cmd("set scrolloff=1")
 vim.cmd("set wrap!")
 
-vim.cmd("set listchars=space:•,eol:↩")
+vim.cmd("set listchars=space:•,eol:↲")
 vim.cmd("set list")
