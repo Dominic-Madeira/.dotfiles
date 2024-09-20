@@ -28,4 +28,4 @@ sudo rm -r ./temp
 sudo apt install -y default-jdk
 curl -fsSL https://bun.sh/install | bash
 
-source ~/.bashrc
+source .bashrc
