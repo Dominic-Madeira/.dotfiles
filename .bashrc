@@ -61,7 +61,7 @@ force_color_prompt=yes
  }
  
 if [ "$color_prompt" = yes ]; then
-	PS1='\[\033[1;33m\]Dom\[\033[0;31m\]$(parse_git_branch) \[\033[0;36m\]\w \[\033[0;32m\]\$ '
+	PS1='\[\033[1;33m\]Dom\[\033[0;31m\]$(parse_git_branch) \[\033[0;36m\]\w \[\033[0;32m\]\$ \[\e[0m\]'
 else
     PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
