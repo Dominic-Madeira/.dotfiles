@@ -12,6 +12,8 @@ sudo apt install git -y
 sudo apt install gh -y
 sudo apt install stow -y
 sudo apt install tree -y
+# for lsp
+sudo apt install npm -y
 
 # install NeoVim from source
 mkdir temp
