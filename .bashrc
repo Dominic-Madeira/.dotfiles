@@ -94,6 +94,7 @@ fi
 # some more ls aliases
 alias ll='ls -la'
 alias tin='bun install ts-standard --save-dev'
+alias bi='bun init .'
 alias tli='bun ts-standard --fix'
 alias jli='bash ~/.dotfiles/imLazyScripts/javalint.sh'
 alias ph='bash ~/.dotfiles/imLazyScripts/push.sh'
