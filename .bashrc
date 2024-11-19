@@ -19,30 +19,30 @@ shopt -s histappend
 HISTSIZE=1000
 HISTFILESIZE=2000
 
-# check the window size after each command and, if necessary,
-# update the values of LINES and COLUMNS.
+# check the window size aftereach command and, if necessary,
+# update the values of LINES nd COLUMNS.
 shopt -s checkwinsize
 
-# If set, the pattern "**" used in a pathname expansion context will
-# match all files and zero or more directories and subdirectories.
+# If set, the pattern "**" usd in a pathname expansion context will
+# match all files and zero ormore directories and subdirectories.
 #shopt -s globstar
 
-# make less more friendly for non-text input files, see lesspipe(1)
-#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+# make less more friendly fornon-text input files, see lesspipe(1)
+#[ -x /usr/bin/lesspipe ] && val "$(SHELL=/bin/sh lesspipe)"
 
-# set variable identifying the chroot you work in (used in the prompt below)
-if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-    debian_chroot=$(cat /etc/debian_chroot)
+# set variable identifying th chroot you work in (used in the prompt below)
+if [ -z "${debian_chroot:-}"  && [ -r /etc/debian_chroot ]; then
+    debian_chroot=$(cat /etc/ebian_chroot)
 fi
 
-# set a fancy prompt (non-color, unless we know we "want" color)
+# set a fancy prompt (non-colr, unless we know we "want" color)
 case "$TERM" in
-    xterm-color|*-256color) color_prompt=yes;;
+    xterm-color|*-256color) clor_prompt=yes;;
 esac
 
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
+# uncomment for a colored propt, if the terminal has the capability; turned
+# off by default to not distrct the user: the focus in a terminal window
+# should be on the output of ommands, not on the prompt
 force_color_prompt=yes
 
  if [ -n "$force_color_prompt" ]; then
@@ -93,8 +93,7 @@ fi
 
 # some more ls aliases
 alias ll='ls -la'
-alias tin='bun install ts-standard --save-dev'
-alias bi='bun init .'
+alias tin='bash ~/.dotfiles/imLazyScripts/bunInstall.sh'
 alias tli='bun ts-standard --fix'
 alias jli='bash ~/.dotfiles/imLazyScripts/javalint.sh'
 alias ph='bash ~/.dotfiles/imLazyScripts/push.sh'
