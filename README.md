@@ -7,7 +7,7 @@ The following need to be installed first:
 - gh auth login
 
 Then clone this repo to the home directory:
-- gh repo clone .dotfiles
+- gh repo clone Dominic-Madeira/.dotfiles
   
 Remove the following files from root:
 - rm -r .config .bashrc .gitconfig
